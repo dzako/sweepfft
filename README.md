@@ -202,6 +202,23 @@ scripts/                     setup_third_party.sh, build.sh, run_machine.sh, run
 results/                     reference-machine data, REPORT.md, tables.md, figures; machines/<label>/ per machine
 ```
 
+## Citation
+
+If you use SweepFFT or its results, please cite the paper
+([doi:10.5281/zenodo.23322613](https://doi.org/10.5281/zenodo.23322613)):
+
+```bibtex
+@misc{cyranka2026sweepfft,
+  author    = {Cyranka, Jacek},
+  title     = {{SweepFFT}: Pass-Minimal Algorithms for Out-of-Cache Fast {Fourier} Transforms},
+  year      = {2026},
+  publisher = {Zenodo},
+  note      = {Working paper, version 1},
+  doi       = {10.5281/zenodo.23322613},
+  url       = {https://doi.org/10.5281/zenodo.23322613}
+}
+```
+
 ## Licence
 
 GPL-2.0-or-later (see `LICENSE`).
