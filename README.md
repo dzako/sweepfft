@@ -1,23 +1,26 @@
-# sweepfft
+# SweepFFT
 
-**A pass-minimal out-of-cache FFT, and the benchmark that derived it from the "integer multiplication below
-n log n" research.**
+**SweepFFT: Pass-Minimal Algorithms for
+Out-of-Cache Fast Fourier Transforms.**
 
 Recent work proves integer multiplication and the DFT in O(n (log n)^{1-κ}) on a *multitape Turing
 machine*:
 - OpenAI's manuscript, *Integer multiplication below n log n* (openai/math);
 - the follow-up [CrocSwap/integer-mult-bounds](https://github.com/CrocSwap/integer-mult-bounds).
 
-The gain itself, with κ ≈ 5·10⁻⁴, is unmeasurable at any size that fits in RAM. But the cost model the
+The gain itself, is unmeasurable at any size that fits in RAM. But the cost model the
 proofs optimise, *passes over a tape*, maps closely onto *sweeps through DRAM*, and that is what limits
 large FFTs.
 
-This repository does three things:
-1. Turns each mechanism from that research into a concrete FFT design choice.
-2. Measures every one of them in isolation: 15 ideas plus Toeplitz-representation tests.
-3. Combines the ones that help into **pmfft**, a measuring planner over a Stockham engine, a recursive
-   batched four-step algorithm with non-temporal stores, and Bluestein / Gaussian-resampling paths for
-   awkward sizes.
+At the largest transform length
+common to all systems, **SweepFFT is 1.15–1.96× faster than MKL
+and 1.27–3.52× faster than FFTW under the headline protocol**.
+The advantage depends on cache footprint, factorization, plan-
+ning and paging. A factorial ablation on one system attributes
+94.5–99.6% of explained out-of-cache log-runtime variation to
+batching, fusion, their interaction, and non-temporal stores.
+
+[Preprint link](https://doi.org/10.5281/zenodo.23322613).
 
 Full write-up: [`results/REPORT.md`](results/REPORT.md).
 
