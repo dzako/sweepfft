@@ -1,0 +1,11 @@
+n,best_file,best_gflops,gflops[results/fftw_wisdom.dat],plan_s[results/fftw_wisdom.dat],gflops[results/fftw_wisdom_fresh.dat],plan_s[results/fftw_wisdom_fresh.dat],search_capped,fresh_search_s
+1048576,results/fftw_wisdom_fresh.dat,18.5491,18.5026,0.0005,18.5491,0.0004,False,2.2
+3145728,results/fftw_wisdom_fresh.dat,16.8474,4.7639,0.0048,16.8474,0.0182,False,514.55
+4194304,results/fftw_wisdom.dat,11.3241,11.3241,0.0006,11.3067,0.0005,False,9.61
+5242880,results/fftw_wisdom_fresh.dat,4.784,4.779,0.0123,4.784,0.0126,True,600.13
+8388608,results/fftw_wisdom.dat,11.3735,11.3735,0.0006,8.928600000000001,0.0006,False,14.46
+12582912,results/fftw_wisdom_fresh.dat,4.5057,4.502,0.0183,4.5057,0.0183,True,601.78
+16777216,results/fftw_wisdom_fresh.dat,11.2287,8.8773,0.0005,11.2287,0.0005,False,41.19
+20971520,results/fftw_wisdom.dat,4.4139,4.4139,0.0479,4.3946000000000005,0.0476,True,600.25
+33554432,results/fftw_wisdom.dat,11.0334,11.0334,0.0007,10.9813,0.0007,False,57.71
+67108864,results/fftw_wisdom_fresh.dat,11.2375,11.141,0.0008,11.2375,0.0008,False,103.94

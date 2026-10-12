@@ -1,0 +1,17 @@
+n,best_file,best_gflops,search_capped,fresh_search_s,cap_s
+1000000,results/machines/ryzen7-7800x3d-vast/fftw_wisdom.dat,18.5232,False,1.6564,600.0
+1000003,results/machines/ryzen7-7800x3d-vast/fftw_wisdom.dat,3.9532,False,17.3194,600.0
+1048576,results/machines/ryzen7-7800x3d-vast/fftw_wisdom.dat,17.9243,False,2.386,1800.0
+2097152,results/machines/ryzen7-7800x3d-vast/fftw_wisdom.dat,17.0894,False,3.3018,1800.0
+3145728,results/machines/ryzen7-7800x3d-vast/fftw_wisdom.dat,20.2023,False,419.2798,1800.0
+4000037,results/machines/ryzen7-7800x3d-vast/fftw_wisdom.dat,2.5383,False,153.0311,600.0
+4194304,results/machines/ryzen7-7800x3d-vast/fftw_wisdom.dat,15.751,False,11.0715,1800.0
+5242880,results/machines/ryzen7-7800x3d-vast/fftw_wisdom.dat,7.5219,True,600.051,600.0
+6553600,results/machines/ryzen7-7800x3d-vast/fftw_wisdom.dat,13.6232,False,19.8131,600.0
+8388608,results/machines/ryzen7-7800x3d-vast/fftw_wisdom.dat,13.8482,False,20.245,1800.0
+10000000,results/machines/ryzen7-7800x3d-vast/fftw_wisdom.dat,11.06,True,600.2829,600.0
+12582912,results/machines/ryzen7-7800x3d-vast/fftw_wisdom.dat,9.5515,True,600.2347,600.0
+16777216,results/machines/ryzen7-7800x3d-vast/fftw_wisdom.dat,14.1316,False,55.4688,1800.0
+20971520,results/machines/ryzen7-7800x3d-vast/fftw_wisdom.dat,5.9915,True,600.4677,600.0
+33554432,results/machines/ryzen7-7800x3d-vast/fftw_wisdom.dat,9.6537,False,60.3011,1800.0
+67108864,results/machines/ryzen7-7800x3d-vast/fftw_wisdom.dat,3.7186,False,106.06,1800.0

@@ -1,0 +1,16 @@
+[project]
+name = "sweepfft"
+version = "0.1.0"
+description = "Pass-minimal out-of-cache FFT (pmfft) and the benchmark that derived it from the sub-n-log-n multiplication research"
+license = "GPL-2.0-or-later"
+requires-python = ">=3.12"
+dependencies = [
+    "ducc0>=0.41.0",
+    "matplotlib>=3.11.2",
+    "mpmath>=1.4.1",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "scipy>=1.18.1",
+    "sympy>=1.12",
+    "tabulate>=0.10.0",
+]

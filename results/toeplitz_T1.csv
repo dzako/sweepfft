@@ -1,0 +1,11 @@
+test,n,max_abs_err,t,L
+T1a_bluestein,7,3.175055398448063e-40,,
+T1a_bluestein,16,1.4769909620211116e-39,,
+T1a_bluestein,31,2.94305990554601e-39,,
+T1b_rader,7,0.0,,
+T1b_rader,13,0.0,,
+T1b_rader,31,0.0,,
+T1c_resampling,7,1.608444833881064e-40,9.0,4.0
+T1c_resampling,13,5.2246700354094604e-40,16.0,7.0
+T1c_resampling,11,4.092097532613192e-40,15.0,5.0
+T1d_complete_square,0,1.4693679385278594e-39,,

@@ -1,0 +1,17 @@
+n,best_file,best_gflops,search_capped,fresh_search_s,cap_s
+1000000,results/machines/xeon-gold-6234-vast/fftw_wisdom.dat,8.1148,False,3.8936,600.0
+1000003,results/machines/xeon-gold-6234-vast/fftw_wisdom.dat,1.2577,False,47.5359,600.0
+1048576,results/machines/xeon-gold-6234-vast/fftw_wisdom.dat,7.0578,False,4.8316,1800.0
+2097152,results/machines/xeon-gold-6234-vast/fftw_wisdom.dat,5.773899999999999,False,9.0777,1800.0
+3145728,results/machines/xeon-gold-6234-vast/fftw_wisdom.dat,5.3388,False,1086.4652,1800.0
+4000037,results/machines/xeon-gold-6234-vast/fftw_wisdom.dat,0.8608,False,574.5525,600.0
+4194304,results/machines/xeon-gold-6234-vast/fftw_wisdom.dat,5.2454,False,24.8541,1800.0
+5242880,results/machines/xeon-gold-6234-vast/fftw_wisdom.dat,5.597,True,600.431,600.0
+6553600,results/machines/xeon-gold-6234-vast/fftw_wisdom.dat,4.8798,False,45.4056,600.0
+8388608,results/machines/xeon-gold-6234-vast/fftw_wisdom.dat,5.0149,False,40.1473,1800.0
+10000000,results/machines/xeon-gold-6234-vast/fftw_wisdom.dat,8.1075,True,600.2015,600.0
+12582912,results/machines/xeon-gold-6234-vast/fftw_wisdom.dat,5.1805,True,600.1615,600.0
+16777216,results/machines/xeon-gold-6234-vast/fftw_wisdom.dat,5.1125,False,83.5594,1800.0
+20971520,results/machines/xeon-gold-6234-vast/fftw_wisdom.dat,3.7209,True,601.6756,600.0
+33554432,results/machines/xeon-gold-6234-vast/fftw_wisdom.dat,5.1223,False,81.6567,1800.0
+67108864,results/machines/xeon-gold-6234-vast/fftw_wisdom.dat,5.287100000000001,False,132.1395,1800.0

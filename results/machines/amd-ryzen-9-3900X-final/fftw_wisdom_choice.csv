@@ -1,0 +1,17 @@
+n,best_file,best_gflops,search_capped,fresh_search_s,cap_s
+1000000,results/machines/amd-ryzen-9-3900X-final/fftw_wisdom.dat,10.3024,False,0.0009,600.0
+1000003,results/machines/amd-ryzen-9-3900X-final/fftw_wisdom.dat,2.1785,False,0.0811,600.0
+1048576,results/machines/amd-ryzen-9-3900X-final/fftw_wisdom.dat,9.1469,False,0.0014,1800.0
+2097152,results/machines/amd-ryzen-9-3900X-final/fftw_wisdom.dat,7.0248,False,0.0011,1800.0
+3145728,results/machines/amd-ryzen-9-3900X-final/fftw_wisdom.dat,3.8417,False,688.0718,1800.0
+4000037,results/machines/amd-ryzen-9-3900X-final/fftw_wisdom.dat,1.2375999999999998,False,0.4308,600.0
+4194304,results/machines/amd-ryzen-9-3900X-final/fftw_wisdom.dat,7.203600000000001,False,0.0014,1800.0
+5242880,results/machines/amd-ryzen-9-3900X-final/fftw_wisdom.dat,0.7676000000000001,True,600.0936,600.0
+6553600,results/machines/amd-ryzen-9-3900X-final/fftw_wisdom.dat,7.114199999999999,False,0.0013,600.0
+8388608,results/machines/amd-ryzen-9-3900X-final/fftw_wisdom.dat,7.4047,False,0.0015,1800.0
+10000000,results/machines/amd-ryzen-9-3900X-final/fftw_wisdom.dat,8.5886,False,0.0335,600.0
+12582912,results/machines/amd-ryzen-9-3900X-final/fftw_wisdom.dat,0.5317999999999999,True,600.4346,600.0
+16777216,results/machines/amd-ryzen-9-3900X-final/fftw_wisdom.dat,7.4647,False,0.0016,1800.0
+20971520,results/machines/amd-ryzen-9-3900X-final/fftw_wisdom.dat,1.1128,True,600.9313,600.0
+33554432,results/machines/amd-ryzen-9-3900X-final/fftw_wisdom.dat,7.1541999999999994,False,0.0017,1800.0
+67108864,results/machines/amd-ryzen-9-3900X-final/fftw_wisdom.dat,6.914899999999999,False,0.0025,1800.0

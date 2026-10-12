@@ -1,0 +1,17 @@
+n,best_file,best_gflops,search_capped,fresh_search_s,cap_s
+1000000,results/machines/epyc-7302-vast/fftw_wisdom.dat,8.267,False,3.6541,600.0
+1000003,results/machines/epyc-7302-vast/fftw_wisdom.dat,1.837,False,34.5753,600.0
+1048576,results/machines/epyc-7302-vast/fftw_wisdom.dat,7.264600000000001,False,4.7653,1800.0
+2097152,results/machines/epyc-7302-vast/fftw_wisdom.dat,5.6778,False,6.9415,1800.0
+3145728,results/machines/epyc-7302-vast/fftw_wisdom.dat,8.7447,False,838.9796,1800.0
+4000037,results/machines/epyc-7302-vast/fftw_wisdom.dat,1.0397,False,406.3409,600.0
+4194304,results/machines/epyc-7302-vast/fftw_wisdom.dat,5.8031999999999995,False,18.576,1800.0
+5242880,results/machines/epyc-7302-vast/fftw_wisdom.dat,0.5861000000000001,True,600.1433,600.0
+6553600,results/machines/epyc-7302-vast/fftw_wisdom.dat,5.7822,False,31.1223,600.0
+8388608,results/machines/epyc-7302-vast/fftw_wisdom.dat,5.9678,False,28.4766,1800.0
+10000000,results/machines/epyc-7302-vast/fftw_wisdom.dat,6.5781,True,601.1709,600.0
+12582912,results/machines/epyc-7302-vast/fftw_wisdom.dat,0.4163,True,600.0856,600.0
+16777216,results/machines/epyc-7302-vast/fftw_wisdom.dat,5.9838000000000005,False,73.6977,1800.0
+20971520,results/machines/epyc-7302-vast/fftw_wisdom.dat,0.8473999999999999,True,602.1537,600.0
+33554432,results/machines/epyc-7302-vast/fftw_wisdom.dat,5.7587,False,74.8978,1800.0
+67108864,results/machines/epyc-7302-vast/fftw_wisdom.dat,5.6384,False,136.1104,1800.0
