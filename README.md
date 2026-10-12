@@ -48,6 +48,27 @@ the ordinary way (the primary study); *huge* means caller arrays on 2 MB pages.
 - **No overlap on one core, on any machine.** Data movement and arithmetic add up rather than overlap:
   their sum is 0.88 – 1.00 of the full time everywhere ([REPORT §22](results/REPORT.md)).
 
+### Where the advantage starts: the cache transition
+
+![Cache transition on five machines](docs/figures/fig1_cache_transition.png)
+
+*Fig. 1. SweepFFT's speedup over MKL (a) and FFTW (b) on all five machines, against W/C. W = 32n is the size
+of input plus output, and C is the local last-level cache. The curves are half-octave geometric means over 97
+smooth sizes. The lead appears once the data no longer fit in the cache (W/C > 1). (c) DRAM traffic per
+transform on the i7, in sweeps S = 16n bytes, from calibrated memory-controller counters. The dashed line is
+the two-pass ideal of 4 S. Beyond the cache, SweepFFT stays near that ideal while the libraries move 2–3× more
+bytes.*
+
+### What makes it fast: the factorial ablation
+
+![Factorial ablation](docs/figures/fig2_factorial_ablation.png)
+
+*Fig. 2. Factorial ablation on the i7-13700H at 2^22. (a) Effect of each design choice on runtime, with 95%
+intervals: non-temporal stores (NT), batched strips (Batch), fused passes (Fuse), their interaction (B×F, a
+ratio of ratios; 1 would mean independence) and the split shape (Split). (b) Non-temporal over ordinary
+stores, in runtime and write traffic, against strip width. Non-temporal stores pay off once each segment
+covers a full cache line (four complex values).*
+
 ## Run the benchmark on your machine
 
 Requirements:
